@@ -74,10 +74,10 @@ npx pod-install ios
 
 ### For Android
 
-bin/run-ios -<Schema: (Environment)> (d: Development, p: Production)
+bin/run-android -<Schema: (Environment)> (d: Development, p: Production)
 
 ```bash
-bin/run-ios -d
+bin/run-android -d
 ```
 
 ### For iOS
