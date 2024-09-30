@@ -1,0 +1,1 @@
+export {AppRenderCard} from './AppRenderCard';

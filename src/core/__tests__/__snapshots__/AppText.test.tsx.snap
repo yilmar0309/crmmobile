@@ -1,0 +1,259 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppText renders correctly with variant body1 in light mode 1`] = `
+<Text
+  style={
+    [
+      {
+        "fontSize": 16,
+        "fontWeight": "400",
+        "letterSpacing": 0.5,
+      },
+      {
+        "color": "#263238",
+      },
+      undefined,
+    ]
+  }
+>
+  Test Text
+</Text>
+`;
+
+exports[`AppText renders correctly with variant body2 in light mode 1`] = `
+<Text
+  style={
+    [
+      {
+        "fontSize": 14,
+        "fontWeight": "400",
+        "letterSpacing": 0.25,
+      },
+      {
+        "color": "#263238",
+      },
+      undefined,
+    ]
+  }
+>
+  Test Text
+</Text>
+`;
+
+exports[`AppText renders correctly with variant button in light mode 1`] = `
+<Text
+  style={
+    [
+      {
+        "fontSize": 14,
+        "fontWeight": "600",
+        "letterSpacing": 1.25,
+      },
+      {
+        "color": "#263238",
+      },
+      undefined,
+    ]
+  }
+>
+  Test Text
+</Text>
+`;
+
+exports[`AppText renders correctly with variant caption in light mode 1`] = `
+<Text
+  style={
+    [
+      {
+        "fontSize": 12,
+        "fontWeight": "400",
+        "letterSpacing": 0.4,
+      },
+      {
+        "color": "#263238",
+      },
+      undefined,
+    ]
+  }
+>
+  Test Text
+</Text>
+`;
+
+exports[`AppText renders correctly with variant h1 in light mode 1`] = `
+<Text
+  style={
+    [
+      {
+        "fontSize": 96,
+        "fontWeight": "bold",
+        "letterSpacing": -1.5,
+      },
+      {
+        "color": "#263238",
+      },
+      undefined,
+    ]
+  }
+>
+  Test Text
+</Text>
+`;
+
+exports[`AppText renders correctly with variant h2 in light mode 1`] = `
+<Text
+  style={
+    [
+      {
+        "fontSize": 60,
+        "fontWeight": "600",
+        "letterSpacing": -0.5,
+      },
+      {
+        "color": "#263238",
+      },
+      undefined,
+    ]
+  }
+>
+  Test Text
+</Text>
+`;
+
+exports[`AppText renders correctly with variant h3 in light mode 1`] = `
+<Text
+  style={
+    [
+      {
+        "fontSize": 48,
+        "fontWeight": "400",
+      },
+      {
+        "color": "#263238",
+      },
+      undefined,
+    ]
+  }
+>
+  Test Text
+</Text>
+`;
+
+exports[`AppText renders correctly with variant h4 in light mode 1`] = `
+<Text
+  style={
+    [
+      {
+        "fontSize": 34,
+        "fontWeight": "400",
+        "letterSpacing": 0.25,
+      },
+      {
+        "color": "#263238",
+      },
+      undefined,
+    ]
+  }
+>
+  Test Text
+</Text>
+`;
+
+exports[`AppText renders correctly with variant h5 in light mode 1`] = `
+<Text
+  style={
+    [
+      {
+        "fontSize": 24,
+        "fontWeight": "400",
+      },
+      {
+        "color": "#263238",
+      },
+      undefined,
+    ]
+  }
+>
+  Test Text
+</Text>
+`;
+
+exports[`AppText renders correctly with variant h6 in light mode 1`] = `
+<Text
+  style={
+    [
+      {
+        "fontSize": 20,
+        "fontWeight": "600",
+        "letterSpacing": 0.15,
+      },
+      {
+        "color": "#263238",
+      },
+      undefined,
+    ]
+  }
+>
+  Test Text
+</Text>
+`;
+
+exports[`AppText renders correctly with variant overline in light mode 1`] = `
+<Text
+  style={
+    [
+      {
+        "fontSize": 10,
+        "fontWeight": "400",
+        "letterSpacing": 1.5,
+      },
+      {
+        "color": "#263238",
+      },
+      undefined,
+    ]
+  }
+>
+  Test Text
+</Text>
+`;
+
+exports[`AppText renders correctly with variant subtitle1 in light mode 1`] = `
+<Text
+  style={
+    [
+      {
+        "fontSize": 16,
+        "fontWeight": "400",
+        "letterSpacing": 0.15,
+      },
+      {
+        "color": "#263238",
+      },
+      undefined,
+    ]
+  }
+>
+  Test Text
+</Text>
+`;
+
+exports[`AppText renders correctly with variant subtitle2 in light mode 1`] = `
+<Text
+  style={
+    [
+      {
+        "fontSize": 14,
+        "fontWeight": "600",
+        "letterSpacing": 0.1,
+      },
+      {
+        "color": "#263238",
+      },
+      undefined,
+    ]
+  }
+>
+  Test Text
+</Text>
+`;

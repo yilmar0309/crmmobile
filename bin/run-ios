@@ -1,0 +1,63 @@
+#!/bin/sh
+
+function get_simulator() {
+  sim=${1:-15}
+  case "${sim}" in
+    8P)
+      sim="8 Plus"
+    ;;
+    xr)
+      sim="Xʀ"
+    ;;
+    xs)
+      sim="Xs"
+    ;;
+    xsmax)
+      sim="Xs Max"
+    ;;
+    *)
+      for i in {6..8}
+      do
+        if [[ "${1}" == "${i}" ]]
+        then
+          sim="${1}"
+          break
+        fi
+      done
+  esac
+}
+
+set -e
+while getopts "sdubplxh" opt; do
+  scheme="CRMMOBILE (Development)"
+  env="development"
+  get_simulator "${2}"
+
+  case "${opt}" in
+    s)
+    ;;
+    d)
+      env="development"
+      scheme="CRMMOBILE (Development)"
+    ;;
+    p)
+      env="production"
+      scheme="CRMMOBILE (Production)"
+    ;;
+    h)
+      echo "Usage: $0 [options]"
+      echo
+      echo "  -h: Show help"
+      echo "  -d: Build and run against development"
+      echo "  -p: Build and run against production"
+      echo "  -m: Specify simulator"
+      echo
+      exit
+    ;;
+    *)
+      exit 1
+  esac
+done
+
+envfile=".env.$env"
+ENVFILE="$envfile" yarn ios --simulator="iPhone $sim" --scheme "$scheme"

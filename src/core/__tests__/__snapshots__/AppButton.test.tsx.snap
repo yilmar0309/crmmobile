@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppButton renders correctly with minimal props 1`] = `
+<View
+  collapsable={false}
+  style={
+    {
+      "backgroundColor": "#67b7ed",
+      "borderColor": "transparent",
+      "borderRadius": 24,
+      "borderWidth": 0,
+      "justifyContent": "center",
+      "minHeight": 40,
+      "opacity": 1,
+      "transform": [
+        {
+          "scale": 1,
+        },
+      ],
+      "width": "100%",
+    }
+  }
+  testID="app-button"
+>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "borderRadius": 24,
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <View
+      center={true}
+      height={24}
+      style={
+        [
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          {},
+          {},
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+          },
+          undefined,
+        ]
+      }
+      width={24}
+    />
+    <Text
+      style={
+        [
+          {
+            "fontSize": 16,
+            "fontWeight": "400",
+            "letterSpacing": 0.5,
+          },
+          {
+            "color": "#FFFFFF",
+          },
+          {
+            "marginHorizontal": 8,
+          },
+        ]
+      }
+    >
+      Click me
+    </Text>
+    <View
+      center={true}
+      height={24}
+      style={
+        [
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          {},
+          {},
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+          },
+          undefined,
+        ]
+      }
+      width={24}
+    />
+  </View>
+</View>
+`;

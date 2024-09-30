@@ -1,0 +1,38 @@
+#!/bin/sh
+
+set -e
+
+env="development"
+mode="developmentDebug"
+suffix="development"
+
+while getopts "sduplh" opt; do
+  case $opt in
+    s)
+    ;;
+    d)
+      mode="developmentDebug"
+      env="development"
+      suffix="development"
+    ;;
+    p)
+      env="production"
+      mode="productionDebug"
+      suffix=""
+    ;;
+    h)
+      echo "Usage: $0 [options]"
+      echo
+      echo "  -h: Show help"
+      echo "  -d: Build and run against development"
+      echo "  -p: Run with Build and run against production"
+      echo
+      exit
+      ;;
+    *)
+      exit 1
+  esac
+done
+
+envfile=".env.${env}"
+ENVFILE="${envfile}" yarn android --mode="${mode}" --appIdSuffix "${suffix}"

@@ -1,0 +1,6 @@
+_mocks_/
+android/**
+ios/**
+jest-config/
+gitignored/**
+coverage

@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LeadsScreen renders correctly when isFetching is false 1`] = `
+<View>
+  <RCTScrollView
+    data={
+      [
+        {
+          "id": 1,
+          "name": "Lead 1",
+        },
+        {
+          "id": 2,
+          "name": "Lead 2",
+        },
+      ]
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onRefresh={[MockFunction]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    refreshControl={
+      <RefreshControlMock
+        onRefresh={[MockFunction]}
+        refreshing={false}
+      />
+    }
+    refreshing={false}
+    renderItem={[Function]}
+    scrollEventThrottle={0.0001}
+    stickyHeaderIndices={[]}
+    testID="virtualized-list"
+  >
+    <RCTRefreshControl />
+    <View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      />
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      />
+    </View>
+  </RCTScrollView>
+</View>
+`;

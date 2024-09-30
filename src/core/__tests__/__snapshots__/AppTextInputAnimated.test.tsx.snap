@@ -1,0 +1,162 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppTextInputAnimated should render input with placeholder 1`] = `
+<View
+  style={
+    [
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      {
+        "flex": 1,
+        "width": "100%",
+      },
+    ]
+  }
+  testID="app-text-input-1"
+>
+  <View
+    onLayout={[Function]}
+    paddingH-14={true}
+    style={
+      [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        {
+          "paddingHorizontal": 14,
+        },
+        {},
+        {},
+        [
+          {
+            "borderColor": "#BEC9C6",
+            "borderWidth": 1,
+            "width": "100%",
+          },
+          undefined,
+          {
+            "borderColor": "#FFFFFF",
+            "borderRadius": 10,
+            "borderWidth": 1,
+          },
+          {
+            "backgroundColor": "#2C3E50",
+          },
+          false,
+        ],
+      ]
+    }
+  >
+    <View
+      style={
+        [
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          {
+            "height": 0,
+            "justifyContent": "center",
+            "position": "absolute",
+          },
+        ]
+      }
+    >
+      <Text
+        collapsable={false}
+        onTextLayout={[Function]}
+        style={
+          {
+            "backgroundColor": "transparent",
+            "color": "#FFFFFF",
+            "fontFamily": "Poppins",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "letterSpacing": 0.15,
+            "lineHeight": 24,
+            "marginLeft": 16,
+            "position": "absolute",
+            "transform": [
+              {
+                "translateY": 0,
+              },
+              {
+                "translateX": 0,
+              },
+              {
+                "scale": 1,
+              },
+            ],
+          }
+        }
+      >
+        Test Input
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          },
+        ]
+      }
+    >
+      <TextInput
+        caretHidden={false}
+        editable={true}
+        multiline={false}
+        onBlur={[Function]}
+        onChangeText={[MockFunction]}
+        onFocus={[Function]}
+        placeholder="Type here"
+        secureTextEntry={false}
+        style={
+          [
+            {
+              "flex": 1,
+              "fontWeight": "400",
+              "letterSpacing": 0.15,
+              "lineHeight": 24,
+            },
+            {
+              "fontSize": 16,
+              "height": 64,
+              "marginBottom": -8,
+              "marginTop": 2,
+            },
+            {
+              "color": "#E1E2E1",
+            },
+            false,
+          ]
+        }
+        testID="app-text-input"
+        value=""
+      />
+    </View>
+  </View>
+</View>
+`;

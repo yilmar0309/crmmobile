@@ -1,9 +1,18 @@
-/**
- * @format
- */
-
+import React from 'react';
 import {AppRegistry} from 'react-native';
-import App from './App';
+import 'react-native-gesture-handler';
+import {Provider} from 'react-redux';
+import App from '@/App';
 import {name as appName} from './app.json';
+import store from '@/core/libraries/redux';
 
-AppRegistry.registerComponent(appName, () => App);
+const Application = () => (
+  <Provider store={store}>
+    <App />
+  </Provider>
+);
+
+if (__DEV__) {
+  import('./ReactotronConfig').then(() => console.log('Reactotron Configured'));
+}
+AppRegistry.registerComponent(appName, () => Application);

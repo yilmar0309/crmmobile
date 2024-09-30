@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppContainer renders correctly in dark mode 1`] = `
+<RCTSafeAreaView
+  style={
+    [
+      {
+        "flex": 1,
+      },
+      {
+        "backgroundColor": "#2C3E50",
+      },
+      undefined,
+    ]
+  }
+  testID="app-container"
+>
+  <Text>
+    Test Content
+  </Text>
+</RCTSafeAreaView>
+`;
