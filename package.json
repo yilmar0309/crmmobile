@@ -54,6 +54,7 @@
     "@types/redux-mock-store": "^1.0.6",
     "babel-jest": "^29.6.3",
     "babel-plugin-module-resolver": "^5.0.2",
+    "detox": "^20.27.2",
     "eslint": "^8.19.0",
     "eslint-plugin-import": "^2.30.0",
     "eslint-plugin-jsx-a11y": "^6.10.0",
