@@ -23,12 +23,23 @@ export function ViewModelProvider({children}: {children: ReactNode}) {
   const handleValidateLead = useCallback(
     async (id: number) => {
       try {
-        await handleValidateLeadApi(id.toString());
-        Toast.show({
-          type: 'success',
-          position: 'top',
-          text1: 'Validation success',
-        });
+        const resultValidate = await handleValidateLeadApi(
+          id.toString(),
+        ).unwrap();
+        if (resultValidate.status === 'disqualified') {
+          Toast.show({
+            type: 'error',
+            position: 'top',
+            text1: 'Validation Failed',
+            text2: 'Lead Validation Failed',
+          });
+        } else {
+          Toast.show({
+            type: 'success',
+            position: 'top',
+            text1: 'Validation success',
+          });
+        }
       } catch (error) {
         Toast.show({
           type: 'error',

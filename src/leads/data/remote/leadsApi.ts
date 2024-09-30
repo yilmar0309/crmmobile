@@ -27,7 +27,7 @@ export const leadsApi = createApi({
         `${apiLeadsBase.endpoints.leads}?searchText=${searchText}`,
       providesTags: ['Leads'],
     }),
-    validateLeads: build.mutation<void, string>({
+    validateLeads: build.mutation<LeadsEntity, string>({
       query: id => ({
         url: `${apiLeadsBase.endpoints.leads}/${id}/validate`,
         method: 'POST',

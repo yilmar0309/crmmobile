@@ -1,5 +1,6 @@
 import {mapLeadsData} from '@/leads/data/mappers/mappers';
 import {LeadsModel} from '@/leads/data/models/leadsModel';
+import { LeadsEntity } from '@/leads/data/remote/entities/leadsEntity';
 import {
   useGetAllLeadsQuery,
   useValidateLeadsMutation,
@@ -9,7 +10,7 @@ export function useRepository(): {
   leadsData: LeadsModel[];
   isFetching: boolean;
   handleValidateLeadApi: (id: string) => {
-    unwrap(): Promise<unknown>;
+    unwrap(): Promise<LeadsEntity>;
   };
   refetch: () => void;
 } {
